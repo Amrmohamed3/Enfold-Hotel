@@ -1,0 +1,880 @@
+
+body{
+    background-color: #343f4e !important;
+    height: auto;
+    padding: 15px;
+    
+}
+/*------main page-----------*/
+.first-photo{
+    max-width: 20%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ .about{
+    text-align: center;
+    background-color: #ffffff;
+}
+/* .dropbtn {
+    background-color: #ffffff;
+    color: #999999;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } */
+  
+  /* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block; z-index: 99999;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;} */
+.nav{
+    border: 2px solid #f8f8f8;
+    background-color: #ffffff;
+}
+.card{
+    margin: auto;
+}
+.nav .nav-item .nav-link{
+    color: #c9c9c9;
+    border-right: 2px solid #f8f8f8;
+    border-left: 2px solid #f8f8f8;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav form a{
+    color: #c9c9c9 !important;
+    border-right: 2px solid #f8f8f8;
+    padding-left: 15px;
+}
+.nav form{
+    padding: 8px;
+    border-right: 2px solid #f8f8f8;
+    border-left: 2px solid #f8f8f8;
+}
+.nav form a:hover{
+    color: #000000 !important;
+}
+.nav .nav-item .nav-link:hover {
+    color: black;
+}
+.welcome img{
+    height: 500px;
+}
+.welcomehere{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    height: 600px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.fa-star{
+    margin-top: 10px !important;
+}
+.on-pagehow{
+    color: #222222;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    width: 65%;
+    height: 160px;
+    margin-top: -90px;
+    position: absolute;
+    right: 18%; 
+    z-index: 99999; 
+}
+.on-pagehow h1{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.welcomehere i{
+    margin-top: 100px;
+    color: #e5c80c;
+    font-size: 25px;
+}
+.welcomehere .wl-about{
+    padding-top: 60px;
+    margin-top: 50px;
+    text-align: left;
+}
+.welcomehere .wl-about .spa-parag h3{
+    color: #222222;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.welcomehere .wl-about .spa-parag p{
+    color: #999999;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.welcomehere .wl-about .spa-parag p strong{
+    color: #e5c80c !important;
+}
+.wl-aboutimage{
+    margin-top: 60px;
+}
+.wl-aboutimage img{
+    width: 100%;
+    height: 100px;
+}
+.wl-aboutimage .enjoy{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.enjoy .over{
+    background-color: rgba(0,0 , 0, .4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.enjoy img{
+    transition: 1s;
+}
+.enjoy:hover .over{
+    opacity: 1;
+}
+.enjoy:hover img{
+    transform: scale(1.1);
+}
+.rooms{
+    background-color: #fcfcfc;
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    padding-top: 80px;
+    height: auto;
+}
+.rooms img{
+    width: 100%;
+    height: 200px;
+}
+.rooms .pt-one{
+    height: auto;
+}
+.rooms .pg-one{
+    color: #999999;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.rooms .rooms-rt{
+    width: 80%;
+}
+.rooms h3{
+    font-size: 15px;
+    color: #222222;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.rooms p{
+    font-size: 14px;
+    color: #e5c80c;
+}
+.rooms .card{
+    border: none;
+    margin-bottom: 15px;
+}
+.rooms .watch{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.watch .overlay{
+    background-color: rgba(255, 255, 255, 0.575);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    transition: all 1s;
+}
+.watch img{
+    transition: 1s;
+}
+
+.card:hover .overlay{
+    opacity: 0;
+}
+.rooms a{
+    text-decoration: none;
+}
+.rooms a:hover{
+    text-decoration: none;
+}
+.rooms .txt{
+    font-size: 20px;
+}
+.rent{
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    height: 1350px;
+}
+.rent .rent-sentences{
+    text-align: center;
+    padding-top: 50px;
+    color: #222222;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+.rent .rent-sentences p{
+    color: #999999;
+    margin-bottom: 0px;
+}
+.rent .rent-sentences strong{
+    color: #e5c80c;
+}
+.rent-one{
+    overflow: auto;
+}
+.let{
+    padding-top: 80px;
+}
+.rent .rent-one .words-rent{
+    width: 45%;
+    float: left;
+    padding: 60px;
+}
+.rent .rent-one .words-rent p{
+    margin-bottom: 0px;
+    color: #999999;
+    margin-top: 15px;
+}
+.rent .rent-one .words-rent h3{
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.rent .rent-one img{
+    width: 50%;
+    float: right;
+}
+.rent .rent-one .rent-pt{
+    height: 400px;
+}
+.can{
+    background-color: #fcfcfc;
+}
+.how{
+    margin-top:-80px;
+}
+@media only screen and (max-width:500px){
+    .welcome img{
+        height: 250px;
+    }
+    .on-pagehow{
+        left:5% ;
+        width: 90%;
+        height: 200px;
+        padding: 20px;
+    }
+    .on-pagehow h1{
+        margin-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 33px;
+
+    }
+    .welcomehere{
+        background-image: none;
+        height: 700px;
+        margin-top: 100px;
+    }
+    .welcomehere .wl-about{
+        margin-top: 20px;
+    }
+    .about-icons i{
+        margin-top: 8px;
+    }
+    .spa-parag{
+        margin-top: 10px;
+    }
+    .wl-aboutimage .row{
+        display: block;
+    }
+    .wl-aboutimage img{
+        margin-top: 10px;
+        height: 150px;
+    }
+    .rooms{
+        background-image: none;
+        margin-top: 1050px;
+    }
+    .rooms .rooms-rt{
+        width: 100%;
+    }
+    .rent{
+        background-image: none;
+    }
+    .rent .rent-sentences{
+        text-align: center;
+        padding-top: 50px;
+        color: #222222;
+        font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
+    }
+
+    .rent .rent-one .words-rent{
+        width: 100%;
+     
+    }
+    .rent .rent-one img{
+        width: 100%;
+    }
+    .net{
+        margin-top: 1350px;
+    }
+
+}
+/*------main page-----------*/
+/*---------second page----*/
+.ab-backgroundimage{
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/slider2.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.ab-tit .ab-title{
+    color: #222222;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    width: 60%;
+    height: 150px;
+    margin-top: -50px;
+    position: absolute;
+    right: 20%; 
+    z-index: 99999;
+
+}
+.ab-tit .ab-title h1{
+    margin-top: 30px;
+}
+.ab-iconwords {
+    background-color: #ffffff;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.ab-iconwords .only-icon{
+    margin-right: 60px;
+    margin-bottom: 40px;
+    color: #e5c80c;
+}
+.ab-iconwords .help h3{
+    color: #222222;
+    margin-bottom: 20px;
+
+}
+.ab-iconwords .help{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    color: #999999;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+.ab-iconwords .help a , .ab-iconwords .help strong{
+    color: #e5c80c;
+}
+.ab-iconwords .help a:hover{
+    color: rgba(255, 0, 0, 0.774);
+}
+.ab-photosone .photos-one .pht{
+    /* background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/luxurious-bedroom-m-845x684.jpg);
+    background-size: 100% 100%;
+    height: 400px; */
+    width: 100%;
+    height: 500px;
+}
+.ab-photosone .photos-one{
+    background-color: #ffffff;
+}
+.ab-photosone .photos-one .pht-two{
+    /* background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/slider4-845x630.jpg);
+    background-size: 100% 100%;
+    height: 400px; */
+    width: 100%;
+    height: 500px;
+}
+.ab-sentences{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png) ;
+    height: 430px;
+    background-color: #ffffff;
+}
+.ab-sentences .help-two{
+    padding-top:120px;
+    color: #999999;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ab-sentences .help-two h3{
+    color: #222222;
+    margin-bottom: 20px;
+}
+.ab-sentences .help-two a , .ab-sentences .help-two strong{
+    color: #e5c80c;
+}
+.ab-sentences .help-two a:hover{
+    color: rgba(255, 0, 0, 0.774);
+}
+.ab-photostwo .photos-two .phts{
+    /* background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/slider1-845x630.jpg);
+    background-size: 100% 100%;
+    height: 400px; */
+    width: 100%;
+    height: 500px;
+}
+.ab-photostwo .photos-two .pht-two{
+    /* background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/massage_face-845x684.jpg);
+    background-size: 100% 100%;
+    height: 400px; */
+    width: 100%;
+    height: 500px;
+}
+.ab-fine{
+    background-color: #ffffff;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    height: 550px;
+    background-repeat: no-repeat;
+}
+.ab-fine .ab-fine-d .container {
+    max-width: 632px;
+    padding-top: 130px;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ab-fine .ab-fine-d h3{
+    text-align: center;
+}
+.ab-fine .ab-fine-d p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #999999;
+}
+.ab-fine .ab-fine-d p a {
+    color: #e5c80c;
+}
+.ab-fine .ab-fine-d p a:hover{
+    color: rgba(255, 0, 0, 0.774);
+}
+.ab-fine .ab-fine-d img{
+    margin-top: 15px;
+}
+.ab-rooms{
+    background-color: #ffffff;
+}
+.ab-rooms .check-rooms{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #999999;
+}
+.ab-rooms .check-rooms button{
+    width: 100%;
+    height: 120px;
+    border: none !important;
+    background-color: #191e24;
+}
+.ab-rooms .check-rooms button:hover{
+    background-color: #e5c80c;
+    transition: all 1s;
+}
+.ab-rooms .check-rooms a{
+    text-decoration: none;
+    color: #ffffff !important;
+}
+.ab-rooms .check-rooms a span{
+    font-size: 25px;
+}
+.pre-footer{
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.pre-footer .foot-icon{
+    margin-top: 40px;
+}
+.pre-footer .foot-icon .fa-twitter{
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    background-color: #46d4fe;
+    text-align: center;
+    padding-top: 5px;
+}
+.pre-footer .foot-icon .fa-wifi{
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    font-size: 17px;
+    background-color: #ffa133;
+    text-align: center;
+    padding-top: 5px;
+}
+.pre-footer p{
+    color: #b0b0b0;
+}
+.pre-footer .foot-icon h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: #777777;
+}
+.pre-footer .foot-icon .onee:hover .one{
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+.pre-footer .foot-icon .twoo:hover .two{
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+/* .pre-footer .foot-icon:hover .two{
+    color: rgba(0, 0, 0, 0.726) !important;
+} */
+.pre-footer .foot-icon span{
+    font-size: 10px;
+    padding-top: 3px;
+    color: #aaaaaa;
+}
+.pre-footer .title-one{
+    color: #777777;
+    margin-bottom: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.pre-footer .linkmail{
+       color: #b0b0b0     !important       ;
+}
+.pre-footer .linkmail:hover{
+    color: black !important;
+}
+footer{
+    height: 50px;
+    background-color: #191e24;
+    color: #b0b0b0 !important;
+}
+footer .end{
+    padding-top: 15px;
+    font-size: 12px;
+}
+footer .end a{
+    color: #b0b0b0 !important;
+}
+footer .end a:hover{
+    color: #333333 !important;
+}
+#btn1{
+    background-color: #191e24 ;
+    color: #b0b0b0 !important;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: none;
+  }
+  #btn1:hover{
+      background-color: #ffffff;
+      color:  #e5c80c !important;
+  }
+a .fa-chevron-up{
+    padding-top: 15px;
+    padding-left: 17px;
+}
+/*---------third page-----------*/
+.background-spa{
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/massage_face-1500x630.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+}
+.on-page{
+    color: #222222;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    width: 65%;
+    height: 150px;
+    margin-top: -150px;
+    position: absolute;
+    right: 18%; 
+    z-index: 99999; 
+}
+.on-page h1{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.spa-about{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png);
+    height: 600px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: -90px;
+}
+.spa-about i{
+    margin-top: 150px;
+    color: #e5c80c;
+}
+ .spa-about .sp-help{
+    margin-top: 60px;
+}
+.spa-about .sp-help .spa-parag{
+    margin-top: 40px;
+    text-align: left;
+}
+.hp{
+    height: 450px;
+}
+.spa-about .sp-help .for{
+    margin-top: 120px;
+}
+.spa-about .sp-help .image-one{
+    width: 100%;
+}
+.spa-about .sp-help .spa-parag h3{
+    color: #222222;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.spa-about .sp-help .spa-parag p{
+    color: #999999;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.spa-about .sp-help .spa-parag p a{
+    color: #e5c80c !important;
+}
+.spa-about .sp-help .spa-parag p a:hover{
+    color: red !important;
+}
+.spa-opportunity{
+    background-color: #ffffff;
+    height: 225px;
+    font-family: 'Merriweather', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 50px;
+}
+.spa-opportunity .relax-h{
+    color: #222222;
+    margin-bottom: 10px;
+}
+.spa-opportunity .relax-h i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.spa-opportunity .relax-h span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.spa-opportunity p{
+    color: #999999;
+    font-weight: 500;
+}
+.spa-relaxation{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/ornament-bg-top-small-1.png) ;
+    height: 600px;
+    background-color: #fcfcfc;
+}
+.kill-two{
+    padding-top: 150px;
+}
+/* /////////////////////////////////// */
+.contact input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #033d94;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .contact{
+    padding-bottom: 40px;
+    background-color: rgba(211, 211, 211, 0.127);
+    padding-top: 60px;
+  }
+  .contact .cool{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+  
+  }
+  .contact .cool h1{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color: white;
+  }
+  .contact .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/* ///////////////////////////////////// */
+@media only screen and (max-width:500px){
+    .image-one{
+        margin-bottom: 15px;
+        margin-top: 60px;
+    }
+    .spa-opportunity{
+        padding-top: 30px;
+    }
+    .kill{
+        margin-top: 125px;
+    }
+    .kill-two{
+        padding-top: 0px;
+    }
+    .again{
+        margin-top: 80px;
+    }
+}
+/*-----fourth page----*/
+.rest-photo{
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/restaurant_wide-1500x630.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.spa-about .sp-help .spa-parag strong{
+    color: #e5c80c;
+}
+.just-photo{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2016/02/restaurant_hotel_brown.jpg);
+    background-attachment: fixed;
+    height: 400px;
+}
+.just-phototwo{
+    background-repeat: no-repeat;
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/restaurant_wide.jpg);
+    background-attachment: fixed;
+    height: 400px;
+}
+.mini{
+    margin-top: -150px;
+}
+/*------responsive for the restaurant page------*/
+@media only screen and (max-width:500px){
+    body{
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        background-color: #ffffff !important;
+    }
+    .about{
+        display: flex;
+    }
+    .rest-photo{
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    .on-page{
+        left:5% ;
+        width: 90%;
+        height: 200px;
+        padding: 20px;
+    }
+    footer{
+        height: auto;
+        padding: 12px;
+    }
+    .pre-footer .title-one{
+        margin-top: 30px;
+    }
+    .spa-about{
+        height: auto;
+        background-image: none;
+    }
+    .hp{
+        background-image: none;
+        height: auto;
+    }
+    .hp{
+        height: auto;
+    }
+    .spa-about i{
+        margin-top: 110px;
+    }
+    .spa-about .sp-help .for {
+        margin-top: 40px;
+    }
+     .spa-about .sp-help{
+        margin-top: 30px;
+    }
+    .spa-about .sp-help .spa-parag h3{
+        font-size: 20px;
+    }
+    .spa-about .sp-help .spa-parag p{
+        font-size: 16px;
+    }
+    .just-photo{
+        height: 400px;
+    }
+    .mini{
+        margin-top: -100px;
+    }
+    .mini-two{
+        margin-top: 55px;
+    }
+
+}
+/*-----page 4 news--------*/
+/* .news-photo{
+    /* background-image: url(/image/slider3.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+} */ 
+.news-photo{
+    background-image: url(https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2015/07/slider3.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+}

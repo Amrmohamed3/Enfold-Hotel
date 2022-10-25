@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel</title>
+  <link rel="stylesheet" href="css/Hotel.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <header id="head">
+    <div class="about" >
+        <img class="first-photo" src="https://kriesi.at/themes/enfold-hotel/wp-content/uploads/sites/58/2016/02/enfold-hotel-logo-1.png" alt="Enfold Hotel Demo">
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+        <a class="nav-link active" href="Hotel.html">WELCOME</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="about-hotel.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">
+          rooms
+          <!-- <div class="dropdown">
+            <div class="dropdown-content">
+              <a href="#">One Bedroom Suite</a>
+              <a href="#">Two Bedroom Deluxe Suite</a>
+              <a href="#">Royal Two-Bedroom Suite</a>
+              <a href="#">Royal Apartment with 4 Bedrooms</a>
+            </div> -->
+          </div>
+        </a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="spa-hotel.html">SPA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="restaurant-spa.html">RESTAURANTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">NEWS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#fname">CONTACT</a>
+        </li>
+        <form class="form-inline my-2 my-lg-0">
+            <a><i class="fas fa-search"></i></a>
+        </form>   
+    </ul>
+</header>
+
+
+<section class="contact" id="con">
+    <div class="cool">
+      <h1>Contact </h1>
+    </div>
+    <div class="container" data-aos="fade-down" data-aos-duration="1000">
+      <form action="" method="POST">
+            <label for="fname">First Name</label>
+            <textarea  id="fname" name="firstname" placeholder="Your name.."  value="<?php echo $firstname; ?>" required></textarea>
+
+            <label for="lname">Last Name</label>
+            <textarea  id="lname" name="lastname" placeholder="Your last name.."  value="<?php echo $lastname; ?>"></textarea>
+
+            <label for="country">Country</label>
+            <textarea  id="country" name="country" placeholder="country.."  value="<?php echo $country; ?>"> </textarea>
+
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subjectone" placeholder="Write something.." style="height:200px"  value="<?php echo $subjectone; ?>" required></textarea>
+
+            <div class="input-group">
+                    <button name="submit" class="btn">submit</button>
+                </div>
+      </form>
+    </div>
+</section>
+
+
+<footer>
+  <div class="container">
+      <div class="end">
+             <span class="copyright">© Copyright  - <a href="#">Enfold Hotel Demo</a> - <a rel="nofollow" href="https://kriesi.at">powered by Enfold WordPress Theme</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/Hotel.js"></script>
+</body>
+
+</html>
